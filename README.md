@@ -14,8 +14,9 @@ First the scheme calculates the approximate initial field excited by
 whole-space magnetic dipole sources at an initial time after the current 
 is switched off. Then the scheme steps Maxwell¡¯s equations in time 
 using a staggered grid and a modified DuFort-Frankel method. See the 
-paper ***3D Finite-difference Transient Electromagnetic Modeling with 
-Whole-space Initial Field*** for detail.
+paper ***LiFei and JiulongCheng, 2023, 3D finite-difference transient 
+electromagnetic modeling with whole-space initial field, Geophysics, online: 
+https://doi.org/10.1190/geo2021-0828.1*** for detail.
 
 ## Installation
 

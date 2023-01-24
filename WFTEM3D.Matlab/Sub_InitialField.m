@@ -12,17 +12,10 @@ function [EX,EY,EZ,HX,HY,HZ,t1_E,t1_H] = Sub_InitialField(L_loop, ...
 % See 3D Finite-difference Transient Electromagnetic Modeling with
 % Whole-space Initial Field for detail.
 %
-% Current Code Owner: <Fei Li and Jiulong Cheng>
-%
 % History:
 % Version    Date    Comment
 % -------    ----    -------
 % 1.0      01/10/21  Original code. <Fei Li and Jiulong Cheng>
-%
-% Code Description:
-% Language: Matlab.
-% Software Standards: "European Standards for Writing and
-% Documenting Exchangeable Fortran 90 Code".
 %
 % Declarations:
 % L_loop            % Length of Tx loop (m). Current is 1 A by default.

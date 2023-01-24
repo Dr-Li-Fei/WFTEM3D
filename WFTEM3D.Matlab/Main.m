@@ -26,17 +26,10 @@
 % "Result_time.txt", "Result_dBz.txt" and "Run_time.txt".
 % In which routine they are written: Sub_Iteration.
 %
-% Current Code Owner: <Fei Li and Jiulong Cheng>
-%
 % History:
 % Version    Date    Comment
 % -------    ----    -------
 % 1.0      01/10/21  Original code. <Fei Li and Jiulong Cheng>
-%
-% Code Description:
-% Language: Matlab.
-% Software Standards: "European Standards for Writing and
-% Documenting Exchangeable Fortran 90 Code".
 %
 % Declarations:
 % character::inputfile                     % Name of the input file.

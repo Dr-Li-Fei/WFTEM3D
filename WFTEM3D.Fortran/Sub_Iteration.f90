@@ -14,8 +14,6 @@
     ! a modified DuFort-Frankel method. See 3D Finite-difference Transient 
     ! Electromagnetic Modeling with Whole-space Initial Field for detail.
     !
-    ! Current Code Owner: <Fei Li and Jiulong Cheng>
-    !
     ! History:
     ! Version    Date    Comment
     ! -------    ----    -------

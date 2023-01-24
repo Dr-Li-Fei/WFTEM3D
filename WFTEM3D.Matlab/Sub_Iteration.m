@@ -15,17 +15,10 @@ function [t_iteration_H,DBZ_Rx] = Sub_Iteration(i0,j0,k0,XI,YJ,ZK,dx,dy,...
 % a modified DuFort-Frankel method. See 3D Finite-difference Transient
 % Electromagnetic Modeling with Whole-space Initial Field for detail.
 %
-% Current Code Owner: <Fei Li and Jiulong Cheng>
-%
 % History:
 % Version    Date    Comment
 % -------    ----    -------
 % 1.0      01/10/21  Original code. <Fei Li and Jiulong Cheng>
-%
-% Code Description:
-% Language: Matlab.
-% Software Standards: "European Standards for Writing and
-% Documenting Exchangeable Fortran 90 Code".
 %
 % Declarations:
 Permeability_vac = 4*pi*10^(-7); % Magnetic permeability of vacuum.

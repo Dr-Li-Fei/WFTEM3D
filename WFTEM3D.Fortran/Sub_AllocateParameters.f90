@@ -5,8 +5,6 @@
     ! Description:
     ! Allocate parameters and variables used in this software.
     !
-    ! Current Code Owner: <Fei Li and Jiulong Cheng>
-    !
     ! History:
     ! Version    Date    Comment
     ! -------    ----    -------

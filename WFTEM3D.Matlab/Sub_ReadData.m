@@ -9,17 +9,10 @@ function [L_loop,XI,YJ,ZK,dx,dy,dz,i0,j0,k0,Rx_st,Rx_end,iter_n_max, ...
 % Description:
 % Read model and configuration parameters from the input file.
 %
-% Current Code Owner: <Fei Li and Jiulong Cheng>
-%
 % History:
 % Version    Date    Comment
 % -------    ----    -------
 % 1.0      01/10/21  Original code. <Fei Li and Jiulong Cheng>
-%
-% Code Description:
-% Language: Matlab.
-% Software Standards: "European Standards for Writing and
-% Documenting Exchangeable Fortran 90 Code".
 %
 % Declarations:
 % inputfile       % Name of the input file.

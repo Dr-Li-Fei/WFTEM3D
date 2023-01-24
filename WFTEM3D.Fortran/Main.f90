@@ -26,8 +26,6 @@
     ! "Result_time.txt", "Result_dBz.txt" and "Run_time.txt".
     ! In which routine they are written: Sub_Iteration.
     !
-    ! Current Code Owner: <Fei Li and Jiulong Cheng>
-    !
     ! History:
     ! Version    Date    Comment
     ! -------    ----    -------

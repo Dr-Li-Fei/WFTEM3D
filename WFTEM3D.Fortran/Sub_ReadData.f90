@@ -8,8 +8,6 @@
     ! Description:
     ! Read model and configuration parameters from the input file.
     !
-    ! Current Code Owner: <Fei Li and Jiulong Cheng>
-    !
     ! History:
     ! Version    Date    Comment
     ! -------    ----    -------
