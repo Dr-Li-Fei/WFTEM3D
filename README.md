@@ -12,10 +12,10 @@ but with slow calculation speed.
 
 First the scheme calculates the approximate initial field excited by
 whole-space magnetic dipole sources at an initial time after the current 
-is switched off. Then the scheme steps Maxwell¡¯s equations in time 
+is switched off. Then the scheme steps Maxwellâ€™s equations in time 
 using a staggered grid and a modified DuFort-Frankel method. See the 
 paper ***LiFei and JiulongCheng, 2023, 3D finite-difference transient 
-electromagnetic modeling with whole-space initial field, Geophysics, online: 
+electromagnetic modeling with a whole-space initial field, Geophysics, online: 
 https://doi.org/10.1190/geo2021-0828.1*** for detail.
 
 ## Installation
@@ -38,7 +38,7 @@ Modeling with Whole-space Initial Field*.
 
 ***Example1_Conductive brick in a half-space.dat*** is the input file 
 of the model ***a Conductive brick in a half-space***. It is in 
-the **Data** folder and it is a standard input file£º
+the **Data** folder and it is a standard input fileï¼š
 ``` 
 100
 17,18,18
@@ -76,15 +76,15 @@ Line 8: Maximum number of iterations:
         2400
 Line 9: Number of subloops:
         64
-Line 10: Coefficient used to calculate time step size (typically ranges from 0.4 to 0.8)£º
+Line 10: Coefficient used to calculate time step size (typically ranges from 0.4 to 0.8)ï¼š
         0.7
 Line 11: Number of model subareas:
         3
-Line 12: Subarea 1. Cells range (x=1¨C17,y=1¨C18,z=1¨C18) and conductivity (0.1 S/m) of the background: 
+Line 12: Subarea 1. Cells range (x=1â€“17,y=1â€“18,z=1â€“18) and conductivity (0.1 S/m) of the background: 
         1,17,1,18,1,18,0.1
-Line 13: Subarea 2, Cells range (x=1¨C17,y=1¨C18,z=1¨C9) and conductivity (0.0003 S/m) of the air:
+Line 13: Subarea 2, Cells range (x=1â€“17,y=1â€“18,z=1â€“9) and conductivity (0.0003 S/m) of the air:
         1,17,1,18,1,9,0.0003
-Line 14: Subarea 3, Cells range (x=7¨C11,y=11¨C12,z=12¨C13) and conductivity (2 S/m) of the conductive brick:
+Line 14: Subarea 3, Cells range (x=7â€“11,y=11â€“12,z=12â€“13) and conductivity (2 S/m) of the conductive brick:
         7,11,11,12,12,13,2
 ```
 ### 2. Run the program.
