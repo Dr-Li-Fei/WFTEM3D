@@ -1,0 +1,35 @@
+##### Comment lines start with #, data is separated by spaces, ',', or ';'.
+##### Model description: The earth resistivity is 50Ω·m, with a topographic rising 70m above
+##### ground（270m-wide top and 390m-wide bottom）。 Central-loop configuration, loop size: 50m*50m. 
+
+##### Number of cells in the x-, y-, and z-directions.
+51 27 28
+##### Grid size in the x direction (m).
+10240 5120 2560 1280 640 320 160 80 40 20 10 10 10 10 10 10 10 10 20 40 20 10 7.5 10 5 5 5 10 7.5 10 20 40 20 10 10 10 10 10 10 10 10 20 40 80 160 320 640 1280 2560 5120 10240
+##### Grid size in the y direction (m).
+5120 2560 1280 640 320 160 80 40 20 7.5 7.5 10 5 5 5 10 7.5 7.5 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the z direction (m).
+5120 2560 1280 640 320 160 80 40 20 10 5 5 5 10 10 10 10 10 10 20 40 80 160 320 640 1280 2560 5120
+##### Tx position:
+23 11 11
+29 17 11
+##### Rx position:
+26 26 1
+14 14 1
+11 11 1
+##### Iteration numbers of primary field and secondary field.
+6400 34000
+##### Coefficients for calculating time step size of primary field and secondary field.
+0.5 0.5
+##### Number of model subdomains.
+9
+##### Cells range (x=?–?, y=?–?, z=?–?) and conductivity (?) of each subdomain.
+1	51	1	27	1	28	0.02
+1	51	1	27	1	18	0.0003
+17	35	1	27	12	12	0.02
+16	36	1	27	13	13	0.02
+15	37	1	27	14	14	0.02
+14	38	1	27	15	15	0.02
+13	39	1	27	16	16	0.02
+12	40	1	27	17	17	0.02
+11	41	1	27	18	18	0.02

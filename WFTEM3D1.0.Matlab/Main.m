@@ -40,7 +40,7 @@ tic
 %--------------------------------------------------------------------------
 % [1.0] Read model and configuration parameters from the input file:
 %--------------------------------------------------------------------------
-addpath(genpath('..\Data'))
+addpath(genpath('.\Data'))
 inputfile = 'Example1_Conductive brick in a half-space.dat';
 %inputfile = 'Example2_Complex conductor at a vertical contact.dat';
 [L_loop,XI,YJ,ZK,dx,dy,dz,i0,j0,k0,Rx_st,Rx_end,iter_n_max,n_subloop, ...
@@ -56,13 +56,13 @@ inputfile = 'Example1_Conductive brick in a half-space.dat';
 [t_iteration_H,DBZ_Rx] = Sub_Iteration(i0,j0,k0,XI,YJ,ZK,dx,dy,dz, ...
     Rx_st,Rx_end,iter_n_max, Alpha,model_EC,EX,EY,EZ,HX,HY,HZ,t1_E,t1_H);
 % Output run-time:
-dlmwrite('..\Data\Run_time.txt',['Computation finished. Run-time is ', ...
+dlmwrite('.\Data\Run_time.txt',['Computation finished. Run-time is ', ...
     num2str(toc),' s.'], 'delimiter', '');
 %--------------------------------------------------------------------------
 % [4.0] Plot results:
 %--------------------------------------------------------------------------
-time = load ('..\Data\Result_time.txt');
-dBz = load ('..\Data\Result_dBz.txt');
+time = load ('.\Data\Result_time.txt');
+dBz = load ('.\Data\Result_dBz.txt');
 if (strcmp(inputfile,'Example1_Conductive brick in a half-space.dat') == 1)
     figure
     loglog(time,abs(dBz(:,1)))

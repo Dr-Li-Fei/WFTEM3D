@@ -1,0 +1,27 @@
+##### Comment lines start with #, data is separated by spaces, ',', or ';'.
+##### Model description: A 50Ω·m homogeneous half-space, central-loop configuration, loop size: 100m*100m.
+
+##### Number of cells in the x-, y-, and z-directions.
+39 39 22
+##### Grid size in the x direction (m).
+5120 2560 1280 640 320 160 80 40 20 10 7.5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7.5 10 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the y direction (m).
+5120 2560 1280 640 320 160 80 40 20 10 7.5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7.5 10 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the z direction (m).
+5120 2560 1280 640 320 160 80 40 20 10 5 5 10 20 40 80 160 320 640 1280 2560 5120
+##### Tx position:
+11 11 11
+29 29 11
+##### Rx position:
+20 20 1
+20 20 1
+11 11 1
+##### Iteration numbers of primary field and secondary field.
+6000 34000
+##### Coefficients for calculating time step size of primary field and secondary field.
+0.5 0.5
+##### Number of model subdomains.
+2
+##### Cells range (x=?–?, y=?–?, z=?–?) and conductivity (?) of each subdomain.
+1	39	1	39	1	22	0.02
+1	39	1	39	1	11	0.0003

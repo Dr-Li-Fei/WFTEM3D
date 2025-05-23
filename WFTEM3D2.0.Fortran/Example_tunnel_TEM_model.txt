@@ -1,0 +1,29 @@
+##### Comment lines start with #, data is separated by spaces, ',', or ';'.
+##### Model description:The tunnel cross-section is 3m×3m. A 60m×60m×5m water-bearing body (1Ω·m) 
+##### lies 30m ahead of the tunnel, within 50Ω·m host rock. Central-loop configuration, loop size: 3m*3m.
+
+##### Number of cells in the x-, y-, and z-directions.
+29 29 32
+##### Grid size in the x direction (m).
+5120 2560 1280 640 320 160 80 40 20 14.5 8 4 2 1 1 1 2 4 8 14.5 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the y direction (m).
+5120 2560 1280 640 320 160 80 40 20 14.5 8 4 2 1 1 1 2 4 8 14.5 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the z direction (m).
+5120 2560 1280 640 320 160 80 40 20 15 8 4 2 1 1 2 4 8 10 5 5 5 10 20 40 80 160 320 640 1280 2560 5120
+##### Tx position:
+14 14 14
+16 16 14
+##### Rx position:
+15 15 1
+15 15 1
+14 14 1
+##### Iteration numbers of primary field and secondary field.
+10000 34000
+##### Coefficients for calculating time step size of primary field and secondary field.
+0.8 0.8
+##### Number of model subdomains.
+3
+##### Cells range (x=?–?, y=?–?, z=?–?) and conductivity (?) of each subdomain.
+1	29	1	29	1	32	0.02
+10	20	10	20	21	21	1
+14	16	14	16	1	14	0.0003

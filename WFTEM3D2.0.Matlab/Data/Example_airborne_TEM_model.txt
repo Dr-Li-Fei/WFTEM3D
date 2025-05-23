@@ -1,0 +1,30 @@
+##### Comment lines start with #, data is separated by spaces, ',', or ';'.
+##### Model description:The subsurface resistivity is 50Ω·m at 0-30m depth, 10Ω·m at 30-60m, 
+##### and 50Ω·m below 60m. The transmitting loop is positioned 30m above the ground. 
+##### Central-loop configuration, loop size: 30m*30m. 
+
+##### Number of cells in the x-, y-, and z-directions.
+25 25 29
+##### Grid size in the x direction (m).
+5120 2560 1280 640 320 160 80 40 20 7.5 7.5 5 5 5 7.5 7.5 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the y direction (m).
+5120 2560 1280 640 320 160 80 40 20 7.5 7.5 5 5 5 7.5 7.5 20 40 80 160 320 640 1280 2560 5120
+##### Grid size in the z direction (m).
+5120 2560 1280 640 320 160 80 40 20 15 15 15 10 5 5 10 15 15 15 15 15 40 80 160 320 640 1280 2560 5120
+##### Tx position:
+11 11 14
+15 15 14
+##### Rx position:
+13 13 1
+13 13 1
+14 14 1
+##### Iteration numbers of primary field and secondary field.
+6400 34000
+##### Coefficients for calculating time step size of primary field and secondary field.
+0.5 0.5
+##### Number of model subdomains.
+3
+##### Cells range (x=?–?, y=?–?, z=?–?) and conductivity (?) of each subdomain.
+1	25	1	25	1	29	0.02
+1	25	1	25	1	17	0.0003
+1	25	1	25	20	21	0.1

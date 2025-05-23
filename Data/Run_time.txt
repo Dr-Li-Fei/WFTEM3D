@@ -1,1 +1,0 @@
- Computation finished. Run-time is    1.04520670000000      s.

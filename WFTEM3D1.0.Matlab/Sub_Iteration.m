@@ -254,7 +254,7 @@ fprintf('Computation finished.\n')
 % [4.0] Output results (time and dBz/dt at receivers):
 %--------------------------------------------------------------------------
 % Output time:
-save('..\Data\Result_time.txt','t_iteration_H','-ascii')
+save('.\Data\Result_time.txt','t_iteration_H','-ascii')
 % Output dBz/dt:
-save('..\Data\Result_dBz.txt','DBZ_Rx','-ascii')
+save('.\Data\Result_dBz.txt','DBZ_Rx','-ascii')
 

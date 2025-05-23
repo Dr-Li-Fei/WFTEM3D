@@ -264,14 +264,14 @@
     !-----------------------------------------------------------------------------
     deallocate(dx,dy,dz,model_EC,EC_x,EC_y,EC_z,EX,EY,EZ,HX,HY,HZ) 
     ! Output time:
-    open(11,file = '../Data/Result_time.txt',ACCESS = 'sequential')
+    open(11,file = './Data/Result_time.txt',ACCESS = 'sequential')
     do i = 0,iter_n_max-1
         write(11,*) t_iteration_H(i)
     end do
     close(11)
     ! Output dBz/dt:
     write(n_Rx,*) Rx_end-Rx_st+1
-    open(12,file = '../Data/Result_dBz.txt',access = 'sequential')
+    open(12,file = './Data/Result_dBz.txt',access = 'sequential')
     do i = 0,iter_n_max-1
         write(12,'('//n_Rx//'e20.10e3)') DBZ_Rx(i,0:Rx_end-Rx_st)
     end do

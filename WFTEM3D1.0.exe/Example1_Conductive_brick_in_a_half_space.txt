@@ -1,0 +1,32 @@
+##### Comment lines start with #, data is separated by spaces, ',', or ';'
+##### Model description: A 0.1 S/m half-space contains a 2 S/m conductive brick (100m*40m*30m) 
+##### at 30 m depth. Central-loop configuration, loop size: 100m*100m. 
+
+##### Length of Tx loop (m), current is 1 A by default:
+100
+##### Number of cells in the x-, y-, and z-directions:
+17,18,18
+##### Grid size in the x direction (m):
+1280,640,320,160,80,40,20,20,20,20,20,40,80,160,320,640,1280
+##### Grid size in the y direction (m):
+1280,640,320,160,80,40,20,10,10,15,20,20,40,80,160,320,640,1280
+##### Grid size in the z direction (m):
+1920,960,480,240,120,60,30,15,15,15,15,15,15,30,90,270,810,2430
+##### Tx loop center (i0,j0,k0, at the bottom face center of this cell):
+9,8,9
+##### Receivers (from i0,Rx_st,k0 to i0,Rx_end,k0, at the bottom face center of these cells):
+8,8
+##### Maximum number of iterations:
+2400
+##### Number of subloops:
+64
+##### Coefficient used to calculate time step size (typically ranges from 0.4 to 0.8)：
+0.7
+##### Number of model subdomains:
+3
+##### Subdomain 1. Cells range (x=1–17,y=1–18,z=1–18) and conductivity (0.1 S/m) of the background: 
+1,17,1,18,1,18,0.1
+##### Subdomain 2, Cells range (x=1–17,y=1–18,z=1–9) and conductivity (0.0003 S/m) of the air:
+1,17,1,18,1,9,0.0003
+##### Subdomain 3, Cells range (x=7–11,y=11–12,z=12–13) and conductivity (2 S/m) of the conductive brick:
+7,11,11,12,12,13,2

@@ -50,7 +50,7 @@
     !-----------------------------------------------------------------------------
     ! [1.0] Read model and configuration parameters from the input file:
     !-----------------------------------------------------------------------------    
-    inputfile = '../Data/Example1_Conductive brick in a half-space.dat'
+    inputfile = './Data/Example1_Conductive brick in a half-space.dat'
     !inputfile = '../Data/Example2_Complex conductor at a vertical contact.dat'
     call Sub_ReadData
     !-----------------------------------------------------------------------------
@@ -63,7 +63,7 @@
     call Sub_Iteration
     call CPU_time(CPU_time_end)
     ! Output run-time:
-    open(13,file = '../Data/Run_time.txt',access = 'sequential')
+    open(13,file = './Data/Run_time.txt',access = 'sequential')
     write(13,*) 'Computation finished. Run-time is ',CPU_time_end-CPU_time_begin,'s.'
     close(13)
     End
